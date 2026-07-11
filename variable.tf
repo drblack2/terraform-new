@@ -1,15 +1,11 @@
-variable "aws_region" {
+variable "ami" {
   type = string
 }
 
-variable "vpc_name" {
+variable "instance_type" {
   type = string
 }
 
-variable "vpc_cidr" {
-  type = string
-}
-
-variable "bucket_name" {
+variable "key_name" {
   type = string
 }
